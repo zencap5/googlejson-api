@@ -20,9 +20,9 @@ fetch(API_endpoint)
     `;
   });
   document.getElementById('Cards-Container').innerHTML = dataAPI;
-setInterval(function(){ 
-    //code goes here that will be run every 5 seconds.    
-}, 5000);  
+
 });
 };
-get_data()
+setInterval(function(){ 
+  get_data()
+}, 5000);  
